@@ -18,14 +18,21 @@ export const WikiPaths = [
 
   // //{ url: "List_of_naval_battles", layout: "list ?? " }, // data very non-uniform may need to manually grab rest of non-tabled conflicts
 
-  { url: "List_of_battles_1601–1800", layout: "list" }, //ul > li > ul > li  title + link
-  { url: "List_of_battles_1901–2000", layout: "list" },
+  // { url: "List_of_battles_1601–1800", layout: "list" }, //ul > li > ul > li  title + link
+  // { url: "List_of_battles_1901–2000", layout: "list" },
 
-  // { url: "List_of_battles_1801–1900", layout: "list v2" },
-  // { url: "List_of_sieges", layout: "list v2" },
+  { url: "List_of_battles_1801–1900", layout: "list v4" },
 
-  // { url: "List_of_Roman_wars_and_battles", layout: "list v3" },
-
-  // { url: "List_of_single-ship_actions", layout: "list v4" },
-  // { url: "List_of_submarine_actions", layout: "list v4" },
+  //more to setup later
+  // List_of_battles_of_the_Eighty_Years%27_War
+  //List_of_battles_of_the_French_invasion_of_Russia
+  //List_of_naval_battles_of_the_American_Civil_War
+  //List_of_events_named_massacres
+  //List_of_Roman_civil_wars_and_revolts
+  //List_of_Roman_external_wars_and_battles
+  //List_of_sieges
+  //List_of_single-ship_actions
+  //List_of_submarine_actions
 ];
+
+//more https://en.wikipedia.org/wiki/Lists_of_battles

@@ -4,7 +4,7 @@ import parseYear from "../parseYear";
 import parseUrl from "../parseUrl";
 
 export async function layoutTableV2(document: Document): Promise<Array<Battle>> {
-  const tables = document.querySelectorAll("table");
+  const tables = document.querySelectorAll("table.wikitable");
   let battles: Battle[] = [];
 
   //Crawl Tables V2
@@ -31,7 +31,7 @@ export async function layoutTableV2(document: Document): Promise<Array<Battle>> 
           let yearText = row.children[0].textContent;
           if (yearText) battle.year = lastYear = parseYear(yearText);
 
-          battle.title = parseText(row.children[1].textContent);
+          battle.title = parseText(row.children[1]?.textContent) || null;
           battle.url = parseUrl(row.children[1]?.querySelector("a")?.getAttribute("href"));
           battle.description = parseText(row.children[3].textContent);
           break;

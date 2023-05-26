@@ -6,9 +6,16 @@
   "author": "Andrew Brown",
   "license": "MIT",
   "dependencies": {
+    "@firebase/app": "^0.9.10",
+    "@types/firebase": "^3.2.1",
+    "@types/mongodb": "^4.0.7",
     "@types/node": "^20.1.7",
     "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "firebase": "^9.22.0",
+    "firebase-admin": "^11.8.0",
     "jsdom": "^22.0.0",
+    "mongodb": "^5.5.0",
     "typescript": "^5.0.4",
     "unidecode": "^0.1.8"
   },

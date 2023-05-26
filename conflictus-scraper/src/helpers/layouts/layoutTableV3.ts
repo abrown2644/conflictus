@@ -4,7 +4,7 @@ import parseYear from "../parseYear";
 import parseUrl from "../parseUrl";
 
 export async function layoutTableV3(document: Document): Promise<Array<Battle>> {
-  const tables = document.querySelectorAll("table");
+  const tables = document.querySelectorAll("table.wikitable");
 
   let battles: Battle[] = [];
 

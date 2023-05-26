@@ -1,5 +1,5 @@
 export class Battle {
-  id: number = null;
+  wikiid: number = null;
   title: string = null;
   type: string = null; // land, sea, air
   year: number = null;
